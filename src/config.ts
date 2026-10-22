@@ -19,9 +19,9 @@ export const SALON_CONFIG = {
   locationCity: "Casablanca",
 
   // Coordonnées & Contact (Modifiez votre numéro et email ici)
-  // Format international sans espaces ni signes pour WhatsApp : ex. '212699125796'
-  whatsappNumber: "212699125796", 
-  whatsappDisplay: "+212 699 125 796",
+  // Format international sans espaces ni signes pour WhatsApp : ex. '212691736736'
+  whatsappNumber: "212691736736", 
+  whatsappDisplay: "+212 691 736 736",
   
   phoneCall: "+212522264264",
   phoneDisplay: "05 22 26 42 64",
