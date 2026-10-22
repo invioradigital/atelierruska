@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Ruska — Beauty & Spa Casablanca",
+  "description": "Atelier Ruska, institut beauté & spa à Casablanca : coiffure, manucure russe, pédicure, extensions de cils, hammam et massages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
