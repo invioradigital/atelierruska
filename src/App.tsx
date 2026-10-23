@@ -168,20 +168,24 @@ export default function App() {
         <div className="trustbar">
           <div className="container trust-inner">
             <div className="trust-item">
-              <strong>BEAUTÉ & BIEN-ÊTRE</strong>
-              <span>Une expérience complète</span>
+              <span className="trust-icon">✧</span>
+              <strong>Beauté & Soins</strong>
+              <span>Expérience complète</span>
             </div>
             <div className="trust-item">
-              <strong>MANUCURE RUSSE</strong>
-              <span>Finition soignée</span>
+              <span className="trust-icon">✦</span>
+              <strong>Manucure Russe</strong>
+              <span>Finition haute précision</span>
             </div>
             <div className="trust-item">
-              <strong>OUVERT 7J/7</strong>
-              <span>10h00 – 20h30 en continu</span>
+              <span className="trust-icon">●</span>
+              <strong>Ouvert 7j/7</strong>
+              <span>10h00 – 20h30</span>
             </div>
             <div className="trust-item">
-              <strong>RÉSERVATION RAPIDE</strong>
-              <span>Formulaire & WhatsApp</span>
+              <span className="trust-icon">◈</span>
+              <strong>Sur Rendez-vous</strong>
+              <span>WhatsApp & En ligne</span>
             </div>
           </div>
         </div>
