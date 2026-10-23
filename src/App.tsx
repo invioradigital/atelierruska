@@ -399,29 +399,28 @@ export default function App() {
               </div>
             </div>
 
-            <div className="max-w-2xl mx-auto bg-[#fffdfb] rounded-2xl p-6 sm:p-8 border border-[#e8ddd6] shadow-sm">
+            <div className="max-w-2xl mx-auto bg-[#fffdfb] rounded-2xl p-3.5 sm:p-8 border border-[#e8ddd6] shadow-sm">
               <div className="divide-y divide-[#f0dfd6]">
                 {SALON_CONFIG.schedules.map((item) => {
                   const isToday = todayFrenchDay.toLowerCase().startsWith(item.day.toLowerCase().slice(0, 3));
                   return (
                     <div
                       key={item.day}
-                      className={`py-3.5 px-3 rounded-lg flex items-center justify-between transition-colors ${
+                      className={`py-3 px-3 sm:px-4 rounded-xl flex items-center justify-between gap-2 transition-colors ${
                         isToday ? 'bg-[#f7ede7] font-semibold text-[#302923]' : 'text-[#544039]'
                       }`}
                     >
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center gap-2 sm:gap-3 shrink-0">
                         <span className="text-sm font-medium">{item.day}</span>
                         {isToday && (
-                          <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#9a6754] text-white font-bold">
+                          <span className="text-[9px] sm:text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#9a6754] text-white font-bold shrink-0">
                             Aujourd'hui
                           </span>
                         )}
                       </div>
-                      <div className="text-right">
-                        <span className="text-sm font-serif">{item.hours}</span>
-                        <span className="block text-[11px] text-[#927c6f] font-normal">
-                          10 AM – 8:30 PM
+                      <div className="text-right whitespace-nowrap shrink-0">
+                        <span className="text-sm sm:text-[15px] font-serif font-medium text-[#302923] tracking-tight">
+                          {item.hours}
                         </span>
                       </div>
                     </div>
