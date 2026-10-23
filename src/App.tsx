@@ -474,10 +474,10 @@ export default function App() {
                 <img src="assets/nails-white.jpg" alt="Manucure élégante" loading="lazy" />
               </div>
               <div className="item">
-                <img src="assets/hair-bob.jpg" alt="Carré et coiffage" loading="lazy" />
+                <img src="assets/hair-layers.jpg" alt="Balayage et coiffage soigné" loading="lazy" />
               </div>
               <div className="item">
-                <img src="assets/hair-long.jpg" alt="Cheveux longs" loading="lazy" />
+                <img src="assets/hair-dark.jpg" alt="Manucure russe immaculée" loading="lazy" />
               </div>
               <div className="item">
                 <img src="assets/nails.jpg" alt="Nail art" loading="lazy" />
